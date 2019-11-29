@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Mostafa
  */
 public class SudokuGrid {
-
+// null values indicates it empty and expect user input
     private static final Integer[][] sudokuGrid = {
         {5, 3, null, 6, 7, 8, 9, 1, 2},
         {6, 7, 2, 1, 9, 5, 3, 4, 8},
