@@ -51,7 +51,7 @@ public class SudokuGrid {
             if (isColumnOrRowValid(column, numbers[i], false)) {
                 if (isColumnOrRowValid(row, numbers[i], true)) {
                     if (isValidInGrid(row, column, numbers[i])) {
-                        System.out.println("Valid");
+                        sudokuGrid[row][column] = numbers[i];
 
                     } else {
                         System.out.println("not grid valid");
